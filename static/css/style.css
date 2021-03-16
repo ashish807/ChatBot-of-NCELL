@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    }
+
+nav{
+
+    text-align: center;
+    width: 100%;
+    margin: 0 auto; /* since we changed the width of the nav to 65% we have to center it so we did no margin for the top and bottom but we put it on auto for right ad left so it should center  */
+    background-color:linear-gradient(to right, #51096c, #c2037e);
+    padding: 6px; /* Gives 6 pixels of padding to the top, bottom, right and left of the navigation */
+    border-radius: 0 0 50px 50px;
+    color:white; /* makes the bottom borders curved */
+}
+
+nav li{
+    list-style: none; /* Takes away the bullet points */
+    display: inline-block; /* Makes the list items display horizontally */
+    font-size: 1.2em; /* changes the font-size */
+    margin: 1px 12px; /* Gives spaces between each list item */
+    }
+    
+    /* Navigation Bar Unordered List*/
+    
+nav ul{
+    padding-left: 0; /* removes left padding that the navigation bar can be completely centered */
+    }
+nav a{
+        text-decoration: none; /* Removes the underline */
+        color: white; /* Changes the color to white */
+        }
+
+
+
+#myVideo {
+            position: relative;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 90%;
+          }
+          
+          /* Add some content at the bottom of the video/page */
+.content {
+            position: relative;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;
+          }
+          
+          /* Style the button used to pause/play the video */
+#myBtn {
+            width: 200px;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background: #000;
+            color: #fff;
+            cursor: pointer;
+          }
+          
+#myBtn:hover {
+            background: #ddd;
+            color: black;
+          }
+
+
+
+
+
+
+
